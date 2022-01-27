@@ -1,0 +1,27 @@
+# Project exclude paths
+/bus/config-bus-client/target/
+/bus/config-bus-server/target/
+/config/config-client/target/
+/config/config-server/target/
+/config/config-server-eureka/target/
+/dubbo/dubbo-api/target/
+/dubbo/dubbo-client/target/
+/eureka/eureka-client/target/
+/eureka/eureka-consumer/target/
+/eureka/eureka-server/target/
+/eureka/eureka-server-shitu/target/
+/eureka/eureka-server-shitu2/target/
+/feign/feign-client/target/
+/feign/feign-client-intf/target/
+/feign/feign-consumer/target/
+/feign/feign-consumer-advanced/target/
+/gateway/auth-service/target/
+/gateway/auth-service-api/target/
+/gateway/gateway-sample/target/
+/hystrix/hystrix-dashboard/target/
+/hystrix/hystrix-turbine/target/
+/ribbon/ribbon-consumer/target/
+/sleuth/sleuth-traceA/target/
+/sleuth/sleuth-traceB/target/
+/sleuth/zipkin-server/target/
+/stream/stream-sample/target/

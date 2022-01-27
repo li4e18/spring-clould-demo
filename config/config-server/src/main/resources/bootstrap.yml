@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lithiyu/config-repo.git
+          # 强制拉取配置文件
+          force-pull: true
+#          username:
+#          password:
+#          search-paths:
+
+server:
+  port: 60000
+encrypt:
+  key: 20070707

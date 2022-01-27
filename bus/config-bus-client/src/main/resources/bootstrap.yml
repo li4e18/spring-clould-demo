@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: config-bus-client
+  kafka:
+    bootstrap-servers: 114.115.214.10:9092
+  cloud:
+    config:
+#      uri: http://localhost:60000
+      discovery:
+        enabled: true
+        service-id: config-bus-server
+      profile: prod
+      label: master
+      name: config-consumer
+    stream:
+      default-binder: kafka
+
+server:
+  port: 61001
+
+myWords: ${words}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20000/eureka/
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
